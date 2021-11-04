@@ -14,13 +14,10 @@ cout << phrase << endl;
 int len = strlen(phrase);
 int count = 0;
 
-for(int i = 0; i < len; i++){
-  char a = phrase[i];
-  if(a == ' '){
-    count ++;
-  }
 
-}
+char temp = phrase[0];
+phrase[0] = phrase[1];
+phrase[1] = temp;
   
 cout << count << endl;
   
