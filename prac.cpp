@@ -11,14 +11,14 @@ char phrase[100];
 cin.get(phrase, 100);
 cin.get();
 cout << phrase << endl;
-int len = strlen(phrase);
-int count = 0;
+//int len = strlen(phrase);
+//int count = 0;
 
 
 char temp = phrase[0];
 phrase[0] = phrase[1];
 phrase[1] = temp;
   
-cout << count << endl;
+cout << phrase << endl;
   
 }
