@@ -6,7 +6,15 @@ using namespace std;
 
 int main(){
 
-cout << "enter a phrase" << endl;
+  
+for(int i =100; i > 0; i--){
+
+  cout << i << endl;
+
+}  
+  
+
+/*cout << "enter a phrase" << endl;
 char phrase[100];
 cin.get(phrase, 100);
 cin.get();
@@ -38,6 +46,6 @@ if(phrase[i] == ' '){
 }
 
   
-cout << phrase << endl;
+cout << phrase << endl;*/
   
 }
