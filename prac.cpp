@@ -26,9 +26,13 @@ if(i == 0){
 }
   
 if(phrase[i] == ' '){
+  if(phrase[i+2] != ' '){
   char temp = phrase[i+1];
   phrase[i+1] = phrase[i+2];
   phrase[i+2] = temp;
+  }else{
+  phrase[i+1] = phrase[i+1];
+  }
 }
 
 }
