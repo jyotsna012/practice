@@ -9,5 +9,6 @@ int main(){
 cout << "enter a phrase" << endl;
 char phrase[100];
 cin >> phrase;
+cout << phrase << endl;
 
 }
