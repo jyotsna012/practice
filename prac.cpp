@@ -8,7 +8,8 @@ int main(){
 
 cout << "enter a phrase" << endl;
 char phrase[100];
-cin >> phrase;
+cin.get(phrase, 100);
+cin.get();
 cout << phrase << endl;
 
 }
