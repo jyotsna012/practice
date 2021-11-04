@@ -17,7 +17,7 @@ int count = 0;
 for(int i = 0; i < len; i++){
   char a = phrase[i];
   if(a == " "){
-    count ++
+    count ++;
   }
 
 }
